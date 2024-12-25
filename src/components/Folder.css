@@ -1,0 +1,36 @@
+.folder-container {
+  margin-left: 20px;
+}
+
+.folder-name {
+  display: flex;
+  align-items: center; /* Ensure buttons are vertically aligned */
+  cursor: pointer;
+  color: #007bff;
+}
+
+.file-name {
+  color: #333;
+}
+
+.folder-contents {
+  margin-left: 15px;
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
+}
+
+/* Button styles */
+.folder-name button {
+  margin-left: 5px;
+  padding: 3px 8px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.folder-name button:hover {
+  background-color: #e2e6ea;
+  border-color: #adb5bd;
+}
